@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            position: relative;
+            border: 1px solid red;
+            height: 100vh;
+        }
+
+        .middle {
+            position: absolute;
+            width: 800px;
+            height: 600px;
+            border: 1px solid blue;
+        }
+
+        .low1 {
+            width: 200px;
+            height: 150px;
+            border: 1px solid rgb(162, 34, 173);
+            display: block;
+            float: left;
+        }
+
+        .low {
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            border: 1px solid rgb(60, 235, 60);
+            display: inline-block;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="middle">
+        <div class="low1"></div>
+        <div class="low"></div>
+    </div>
+</body>
+</html>
